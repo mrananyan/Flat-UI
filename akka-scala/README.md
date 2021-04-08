@@ -70,6 +70,8 @@ Class | Method | HTTP request | Description
 *AuthApi* | **resetSetPasswordPost** | **POST** /reset/setPassword | Set user password
 *AuthApi* | **signInPost** | **POST** /signIn | Sign in into profile
 *AuthApi* | **signUpPost** | **POST** /signUp | Sign up for new users
+*ChallengesApi* | **challengesDoneidTASKIDPost** | **POST** /challenges/done?id&#x3D;TASK_ID | Make task done
+*ChallengesApi* | **challengesListGet** | **GET** /challenges/list | Get challenges lisr
 *NewsApi* | **newsGet** | **GET** /news | Get all news with pagination
 *NewsApi* | **newsIDGet** | **GET** /news/ID | Get one news by id
 
